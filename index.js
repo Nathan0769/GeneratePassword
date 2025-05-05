@@ -7,7 +7,7 @@ const NUMBERS = "0123456789";
 
 const askLength = () => {
   const length = Number(prompt("🔢 Combien de caractères ? (8-36) : "));
-  if (length < 8 || length > 36) {
+  if (length < 8 || length > 36 || Number.isNaN(length)) {
     throw new Error("Merci de mettre une longueur comprise entre 8 et 36");
   }
   return length;
