@@ -1,4 +1,4 @@
-# 🔐 generatePassword
+# 🔐 Generate Password
 
 Une application en ligne de commande simple et sécurisée pour générer des mots de passe personnalisés.
 
